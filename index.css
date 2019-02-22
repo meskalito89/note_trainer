@@ -1,0 +1,32 @@
+#root {
+  height: 100vh;
+}
+
+.App {
+  display: grid ;
+  grid-template-rows: 10vh auto;
+}
+
+#abc {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  place-self: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.header {
+  background-color: #b5b5b5;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#midi {
+  display: flex;
+  width: 50%;
+}
+.abcjs-inline-midi.abcjs-midi-0 {
+  align-self: center;
+  width: 100%;
+}
