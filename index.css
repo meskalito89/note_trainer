@@ -10,8 +10,8 @@
 #abc {
   grid-row-start: 2;
   grid-row-end: 3;
-  place-self: center;
-  padding-left: 10%;
+  place-self: left;
+  padding-left: 3%;
   padding-right: 10%;
 }
 
